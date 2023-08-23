@@ -1,0 +1,7 @@
+{
+	"parserOpts": {
+		"plugins": [
+			"dynamicImport"
+		]
+	}
+}

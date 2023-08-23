@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>UI5 Web Components</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<ui5-title>UI5 Web Components are here!</ui5-title>
+	<br /><br />
+
+	<ui5-color-palette>
+		<ui5-color-palette-item value="darkblue" class="ui5-content-density-compact"></ui5-color-palette-item>
+	</ui5-color-palette>
+
+	<ui5-message-strip design="Warning" hide-close-button class="ui5-content-density-compact">
+		Adding more components? Check the sample page of the component and add the
+		corresponding import statement in `src/index.js`
+	</ui5-message-strip>
+	<br /><br />
+
+	<ui5-date-picker style="width: 300px;" class="ui5-content-density-compact"></ui5-date-picker>
+	<br /><br />
+
+	<ui5-button design="Positive" class="ui5-content-density-compact">Positive</ui5-button>
+	<ui5-button design="Negative">Negative</ui5-button>
+	<br /><br />
+
+	<ui5-switch design="Graphical" checked class="ui5-content-density-compact"></ui5-switch>
+	<br />
+	<ui5-button id="openDialogButton">Open Dialog</ui5-button>
+	<br />
+
+	<ui5-dialog id="hello-dialog" header-text="Dialogs are easy!">
+		<div stype="padding: 2rem; display:flex; justify-content: center;">
+			Hello World!
+			<ui5-button id="closeDialogButton">Dismiss</ui5-button>
+		</div>
+	</ui5-dialog>
+	<script src="src/index.js"></script>
+</body>
+
+</html>
