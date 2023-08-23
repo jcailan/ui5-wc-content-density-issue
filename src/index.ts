@@ -6,6 +6,7 @@ import "@ui5/webcomponents/dist/Dialog.js";
 import "@ui5/webcomponents/dist/Switch.js";
 import "@ui5/webcomponents/dist/Title.js";
 import "@ui5/webcomponents/dist/ColorPalette.js";
+import "./components/Color";
 
 const openBtn = document.getElementById("openDialogButton");
 const closeBtn = document.getElementById("closeDialogButton");

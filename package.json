@@ -8,7 +8,7 @@
 		"build": "webpack"
 	},
 	"dependencies": {
-		"@ui5/webcomponents": "^1.16.0"
+		"@ui5/webcomponents": "^1.17.0-rc.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.22.10",
