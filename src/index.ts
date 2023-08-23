@@ -10,6 +10,7 @@ import "@ui5/webcomponents/dist/ColorPalette.js";
 const openBtn = document.getElementById("openDialogButton");
 const closeBtn = document.getElementById("closeDialogButton");
 const dialog = document.getElementById("hello-dialog");
+
 openBtn.addEventListener("click", () => {
 	dialog.show();
 });
